@@ -1,0 +1,85 @@
+/* .btn{
+   
+
+
+
+
+
+.button-41 {
+  padding: 12px 26px;
+  border: 0;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+
+  border-radius: 24px;
+  font-weight: 600;
+
+  color: #fff;
+  background-color: #363C43;
+  background-image: radial-gradient(50% 115% at 50% -5%, rgba(255, 255, 255, 0.11) 0%, transparent 100%);
+  box-shadow: inset 0 0px 10px 0px rgba(206, 194, 194, 0.14), inset 0px 5px 10px 0px rgba(183, 177, 177, 0.11), inset 0px 2px 5px 0px rgba(255, 255, 255, 0.4), inset 0px 3px 20px 0px rgba(0, 0, 0, 0.5), 10px 10px 17px 2px rgba(0,0,0,0.75);;
+}
+
+ */
+
+.btn {
+  /* Rectangle 39379 */
+
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: -0.5px -0.5px 6.9px rgba(255, 255, 255, 0.25),
+    9px 10px 7.1px rgba(0, 0, 0, 0.4),
+    inset 0px 0px 48.9064px rgba(255, 255, 255, 0.05),
+    inset 0px 3.26043px 3.26043px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(52.28px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 104px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.btn1 {
+  background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+  box-shadow: 4px 5px 30px 5px rgba(16, 18, 19, 1);
+
+  box-shadow: -5px -3px 30px -10px rgba(150, 190, 231, 1);
+}
+
+.btn2 {
+    background: linear-gradient(139.14deg, #8ab3e5 12.4%, #161718 94.96%);
+    box-shadow: 4px 5px 30px 5px rgba(16, 18, 19, 1);
+    color: white;
+  
+    box-shadow: -5px -3px 30px -10px rgba(150, 190, 231, 1);
+  }
+
+
+  .carousel-container {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    width: 635px; 
+    height: 550px;
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+  }
+  
+  
+  .carousel-image {
+    min-width: 190px;
+    height: 179px;
+    margin: 0 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    filter: grayscale(100%);
+  }
+  
+  .carousel-image:hover{
+    filter: grayscale(0%);
+    transform: rotate(-3deg) scale(1.15);
+    transition: all 0.5s ease-in-out;
+  }
