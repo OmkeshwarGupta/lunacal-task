@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This project was  [deployed on](https://github.com/OmkeshwarGupta/lunacal-task.git).
 
-This project was  [deployed on](https://github.com/OmkeshwarGupta/lunacal-task.git).
+
 
 ## Available Scripts
 
